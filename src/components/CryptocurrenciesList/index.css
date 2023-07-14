@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+* {
+  box-sizing: border-box;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #00e7ff;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 60px;
+}
+
+.main-section {
+  background-color: transparent;
+  border: 2px solid #00e7ff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+}
+.list-container {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.currency-section {
+  display: flex;
+  justify-content: space-around;
+  width: 240px;
+}
+
+.image {
+  width: 90%;
+}
+.coin-type-heading {
+  margin-left: 30px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+.currency-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+@media (min-width: 768px) {
+  .main-section {
+    background-color: transparent;
+    border: 2px solid #00e7ff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0px;
+  }
+}

@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.text-color {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 30%;
+}
+.list-container1 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.currency-section1 {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+}
